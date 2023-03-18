@@ -36,6 +36,7 @@ module.exports = {
   ],
   rules: {
     eqeqeq: 'error',
+    'import/no-extraneous-dependencies': 'off',
     indent: ['warn', 2, { ignoredNodes: ['ArrowFunctionExpression'] }],
     'jsx-quotes': ['error', 'prefer-double'],
     'no-console': 'warn',

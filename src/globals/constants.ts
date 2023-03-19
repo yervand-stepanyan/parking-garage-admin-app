@@ -1,8 +1,3 @@
-export const DIVIDER = {
-  orientation: {
-    vertical: 'vertical',
-  },
-};
 export const TYPOGRAPHY = {
   color: {
     disabled: 'disabled',

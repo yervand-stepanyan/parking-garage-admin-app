@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/parking-garage-admin/static/css/main.754ebb54.css",
+    "main.js": "/parking-garage-admin/static/js/main.fd05b2f3.js",
+    "index.html": "/parking-garage-admin/index.html",
+    "main.754ebb54.css.map": "/parking-garage-admin/static/css/main.754ebb54.css.map",
+    "main.fd05b2f3.js.map": "/parking-garage-admin/static/js/main.fd05b2f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.754ebb54.css",
+    "static/js/main.fd05b2f3.js"
+  ]
+}

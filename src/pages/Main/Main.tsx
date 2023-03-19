@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { MainLayout } from 'src/layouts';
 import { ContentContainer } from 'src/components/shared';
+import { MainLayout } from 'src/layouts';
 
 const Main: React.FC = () => {
   return (

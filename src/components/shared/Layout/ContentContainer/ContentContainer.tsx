@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { useStyles } from './ContentContainer.style';
 import { ContentContainerProps } from './models';
+import { useStyles } from './ContentContainer.style';
 
 const ContentContainer: React.FC<ContentContainerProps> = ({ children }) => {
   const classes = useStyles();

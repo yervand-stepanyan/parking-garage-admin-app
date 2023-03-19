@@ -35,6 +35,7 @@ module.exports = {
     'prettier',
   ],
   rules: {
+    '@typescript-eslint/consistent-type-imports': 'off',
     eqeqeq: 'error',
     'import/no-extraneous-dependencies': 'off',
     indent: ['warn', 2, { ignoredNodes: ['ArrowFunctionExpression'] }],

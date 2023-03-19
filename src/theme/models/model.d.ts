@@ -1,4 +1,7 @@
-import type { Theme, ThemeOptions } from 'src/components/shared';
+import type {
+  Theme as MUITheme,
+  ThemeOptions as MUIThemeOptions,
+} from 'src/components/shared';
 
 interface Spacing {
   xSmall: string;
@@ -14,17 +17,17 @@ interface Spacing {
 }
 
 declare module '@mui/material/styles' {
-  interface CustomTheme extends Theme {
+  interface Theme extends MUITheme {
     custom: {
       spacing: Spacing;
     };
   }
 
-  interface CustomThemeOptions extends ThemeOptions {
+  interface ThemeOptions extends MUIThemeOptions {
     custom: {
       spacing: Spacing;
     };
   }
 
-  export function createTheme(options?: CustomThemeOptions): CustomTheme;
+  export function createTheme(options?: ThemeOptions): Theme;
 }

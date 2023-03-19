@@ -1,11 +1,14 @@
 import React from 'react';
 
-import { useStyles } from './Main.style';
+import { MainLayout } from 'src/layouts';
+import { ContentContainer } from 'src/components/shared';
 
 const Main: React.FC = () => {
-  const classes = useStyles();
-
-  return <div className={classes.main}>Main</div>;
+  return (
+    <MainLayout>
+      <ContentContainer>Content</ContentContainer>
+    </MainLayout>
+  );
 };
 
 export default Main;

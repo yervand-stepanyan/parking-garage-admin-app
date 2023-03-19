@@ -4,13 +4,13 @@ const BASE_SPACING_VALUE = 16;
 
 const ROOT_PALETTE = {
   background: {
-    default: '#26212C',
-    paper: '#31283C',
+    default: '#FFFFFF',
+    paper: '#FFFFFF',
   },
   primary: {
     contrastText: '#FFFFFF',
-    light: '#32C7A3',
-    main: '#00BA8C',
+    light: '#D2F0E9',
+    main: '#007272',
   },
 };
 

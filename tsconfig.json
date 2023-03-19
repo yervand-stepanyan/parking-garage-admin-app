@@ -18,6 +18,11 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
+    "paths": {
+      "src/*": [
+        "./src/*"
+      ]
+    },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,

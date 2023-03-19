@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     <div>
       <AppBar position={APPBAR.position}>
         <Toolbar>
-          <Typography variant={TYPOGRAPHY.variant.h6} label={HEADER.title} />
+          <Typography variant={TYPOGRAPHY.variant.h5} label={HEADER.title} />
         </Toolbar>
       </AppBar>
     </div>

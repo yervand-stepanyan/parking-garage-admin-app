@@ -1,4 +1,13 @@
+export const DIVIDER = {
+  orientation: {
+    vertical: 'vertical',
+  },
+};
 export const TYPOGRAPHY = {
+  color: {
+    disabled: 'disabled',
+    success: 'success',
+  },
   variant: {
     body1: 'body1',
     body2: 'body2',

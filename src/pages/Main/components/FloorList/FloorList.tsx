@@ -5,11 +5,11 @@ import { FloorListProps } from './models';
 
 const FloorList: React.FC<FloorListProps> = ({ items }) => {
   return (
-    <div>
+    <>
       {items.map(item => (
-        <Floor key={item.id} title={item.title} />
+        <Floor key={item.id} spotList={item.spots} title={item.title} />
       ))}
-    </div>
+    </>
   );
 };
 

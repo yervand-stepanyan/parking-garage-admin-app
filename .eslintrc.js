@@ -36,6 +36,7 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/consistent-type-imports': 'off',
+    '@typescript-eslint/strict-boolean-expressions': 'off',
     eqeqeq: 'error',
     'import/no-extraneous-dependencies': 'off',
     indent: ['warn', 2, { ignoredNodes: ['ArrowFunctionExpression'] }],

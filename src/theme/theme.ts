@@ -12,6 +12,9 @@ const ROOT_PALETTE = {
     light: '#D2F0E9',
     main: '#007272',
   },
+  secondary: {
+    main: '#009BD7',
+  },
 };
 
 const SPACING = {

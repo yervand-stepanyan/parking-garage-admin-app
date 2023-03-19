@@ -1,8 +1,12 @@
 import { makeStyles } from 'src/components/shared';
 
 export const useStyles = makeStyles(() => ({
-  filtersContainer: {
+  spotItemContainer: {
     display: 'flex',
-    justifyContent: 'flex-end',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  toolbarWrapper: {
+    width: '40%',
   },
 }));
